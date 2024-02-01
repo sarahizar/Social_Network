@@ -13,12 +13,15 @@ const activity = cwd.includes('01-Activities')
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use('/api', routes);
+app.use(routes);
 
+console.log('Before app.listen');
+app.listen(PORT, () => {
+  console.log(`API server for ${activity} running on port ${PORT}!`);
+});
+
+// MongoDB event listener remains unchanged
 db.once('open', () => {
-  app.listen(PORT, () => {
-    console.log(`API server for ${activity} running on port ${PORT}!`);
-  });
 
   
 });
