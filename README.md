@@ -34,11 +34,8 @@ This project is licensed under the MIT License
 - MongoDB
 
 ## Screen Recording
-A QR Code to watch the tutorial video:
-![My Image](/qr-code%20(1).png)
-
-Or you can use the following embed code:
-<iframe src="https://drive.google.com/file/d/1i5qDbu7sEywc0G2zRSEThtCU-Gos8U2v/preview" width="640" height="480"></iframe>
+Use the following code:
+https://drive.google.com/file/d/1jHtP9dX7bbbyJ1n69Rff9VvPhkmImpfz/view
 
 ## Questions 
 If you have any questions, please feel free to reach out:
@@ -46,4 +43,4 @@ If you have any questions, please feel free to reach out:
 - Email: sara.hizar@outlook.com
 
 ## Link
-https://github.com/sarahizar/README-Generator.git
+https://github.com/sarahizar/Social_Network

@@ -56,7 +56,7 @@ module.exports = {
         return res.status(404).json({ error: 'User not found' });
       }
 
-      // Bonus: Remove user's associated thoughts when deleted
+     
       await User.updateMany(
         { _id: { $in: deletedUser.friends } },
         { $pull: { friends: req.params.userId } }

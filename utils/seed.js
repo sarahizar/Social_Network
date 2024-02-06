@@ -45,3 +45,4 @@ mongoose.connection.once('open', async () => {
   console.info('Seeding complete! ');
   process.exit(0);
 });
+
